@@ -24,13 +24,11 @@ body {
 
 .header {
   display: inline-flex;
+  padding-left: 215px;
+  padding-top: 24px;
 }
 
 .header-logo {
-  width: 145px;
-  height: 31px;
-  margin-left: 215px;
-  margin-top: 24px;
   font-family: Raleway;
   font-weight: bold;
   font-size: 26px;
@@ -46,14 +44,22 @@ body {
   color: #000;
 }
 
-.header-navigation-item {
-  display: inline;
+.header-navigation {
+  margin-left: 93px;
 }
 
-.header-navigation {
-  width: 294px;
-  height: 16px;
-  margin-left: 93px;
+/* .header-navigation-list {
+  display: inline;
+  text-align: justify;
+  margin: 0px 20px;
+  padding: 0;
+} */
+
+.header-navigation-item {
+  display: inline;
+  padding: 20px 0;
+  width: 500px;
+  text-align: center;
 }
 
 .header-navigation-link {
@@ -65,17 +71,34 @@ body {
   color: var(--accent-color);
 }
 
-.header-mail-item {
+.header-mail-link {
+  color: #757575;
   width: 135px;
   height: 16px;
   margin-left: 331px;
   padding-top: 32px;
 }
 
-.header-phone-item {
+.header-phone-link {
+  color: #757575;
   width: 135px;
   height: 16px;
   margin-left: 50px;
+}
+
+.header-mail-link:hover,
+.header-mail-link:focus,
+.header-phone-link:hover,
+.header-phone-link:focus {
+  color: var(--accent-color);
+}
+
+/* --------------main-box------------- */
+
+.main-box {
+  display: flex;
+  flex-direction: column;
+  flex-wrap: wrap;
 }
 
 /* --------------section title page------------- */
@@ -133,6 +156,27 @@ h1 {
   display: inline-flex;
 }
 
+.advantages-item {
+  width: 1170px;
+  height: 101px;
+}
+
+.advantages-title {
+  font-weight: bold;
+  font-size: 14px;
+  line-height: 16px;
+  letter-spacing: 0.03em;
+  color: #212121;
+  text-transform: uppercase;
+}
+
+.advatages-text {
+  font-size: 14px;
+  line-height: 1.71x;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
 .we-doing-title {
   font-weight: bold;
   font-size: 36px;
@@ -155,12 +199,67 @@ h1 {
 .section-command {
   width: 1600px;
   height: 648px;
-  margin-left: 215px;
-  margin-top: 94px;
+  padding-left: 215px;
+  padding-top: 94px;
 }
 
 .commande-list {
   display: inline-flex;
 }
 
-/* --------------footer------------- */ ;
+/* --------------footer------------- */
+
+.footer {
+  background-color: var(--secondary-background-color);
+  width: 1600px;
+  height: 252px;
+  padding-top: 60px;
+  padding-left: 215px;
+}
+
+.footer-logo {
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.footer-logo-web {
+  color: #2196f3;
+}
+
+.footer-logo-studio {
+  color: #ffffff;
+}
+
+.footer-address {
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-addres-link {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: #ffffff;
+}
+
+.footer-mail-link {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
+
+.footer-phone-link {
+  font-style: normal;
+  font-size: 14px;
+  line-height: 1.71;
+  letter-spacing: 0.03em;
+  color: rgba(255, 255, 255, 0.6);
+}
