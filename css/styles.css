@@ -1,0 +1,166 @@
+:root {
+  --main-title-color: #ffffff;
+  --secondary-title-color: #212121;
+  --main-text-color: #757575;
+  --accent-color: #2196f3;
+  --main-background-color: #ffffff;
+  --secondary-background-color: #2f303a;
+  --third-background-color: #f5f4fa;
+}
+body {
+  font-family: "Roboto", "Raleway", sans-serif;
+  background-color: var(--main-background-color);
+}
+
+.list {
+  list-style: none;
+}
+
+.link {
+  text-decoration: none;
+}
+
+/* -------------header------------- */
+
+.header {
+  display: inline-flex;
+}
+
+.header-logo {
+  width: 145px;
+  height: 31px;
+  margin-left: 215px;
+  margin-top: 24px;
+  font-family: Raleway;
+  font-weight: bold;
+  font-size: 26px;
+  line-height: 1.19;
+  letter-spacing: 0.03em;
+}
+
+.header-logo-web {
+  color: #2196f3;
+}
+
+.header-logo-studio {
+  color: #000;
+}
+
+.header-navigation-item {
+  display: inline;
+}
+
+.header-navigation {
+  width: 294px;
+  height: 16px;
+  margin-left: 93px;
+}
+
+.header-navigation-link {
+  color: #212121;
+}
+
+.header-navigation-link:hover,
+.header-navigation-link:focus {
+  color: var(--accent-color);
+}
+
+.header-mail-item {
+  width: 135px;
+  height: 16px;
+  margin-left: 331px;
+  padding-top: 32px;
+}
+
+.header-phone-item {
+  width: 135px;
+  height: 16px;
+  margin-left: 50px;
+}
+
+/* --------------section title page------------- */
+.section-title-page {
+  background-color: var(--secondary-background-color);
+  width: 1520px;
+  height: 600px;
+  margin-left: 82px;
+  margin-top: 80px;
+}
+
+.title-page-button {
+  width: 200px;
+  height: 50px;
+  margin-left: 700px;
+  margin-top: 350px;
+  background-color: #2196f3;
+  color: #fff;
+  border-radius: 4px;
+
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.875;
+
+  align-items: center;
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+h1 {
+  color: #fff;
+  position: absolute;
+  width: 700px;
+  height: 120px;
+  margin-left: 450px;
+  margin-top: 200px;
+
+  font-weight: 900;
+  font-size: 44px;
+  line-height: 1.36;
+
+  text-align: center;
+  letter-spacing: 0.06em;
+}
+
+/* --------------section we doing------------- */
+
+.section-we-doing {
+}
+
+.advantages-list {
+  width: 1170px;
+  height: 101px;
+  margin-left: 215px;
+  margin-top: 94px;
+  display: inline-flex;
+}
+
+.we-doing-title {
+  font-weight: bold;
+  font-size: 36px;
+  line-height: 1.17;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+
+.we-doing-list {
+  display: block;
+  float: left;
+}
+
+/* .we-doing-img {
+  padding: 15;
+} */
+
+/* --------------section commande------------- */
+
+.section-command {
+  width: 1600px;
+  height: 648px;
+  margin-left: 215px;
+  margin-top: 94px;
+}
+
+.commande-list {
+  display: inline-flex;
+}
+
+/* --------------footer------------- */ ;
