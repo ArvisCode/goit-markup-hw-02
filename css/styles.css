@@ -160,7 +160,7 @@ h1 {
   display: inline-flex;
   width: 270px;
   font-size: 14px;
-  line-height: 1.71x;
+  line-height: 1.71;
   letter-spacing: 0.03em;
   color: #757575;
 }
